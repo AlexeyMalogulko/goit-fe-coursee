@@ -1,16 +1,19 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 .conteiner {
   width: 900px;
   margin: 0 auto;
   background-color: #ffffff;
 }
+
 body {
   font-family: "Playfair Display", serif;
   color: #626262;
@@ -21,6 +24,7 @@ body {
   list-style: none;
   text-align: center;
 }
+
 .site-navigation {
   font-size: 0px;
 }
@@ -30,6 +34,7 @@ body {
   padding-left: 0px;
   padding-top: 78px;
 }
+
 .site-navigation li {
   font-size: 14px;
 }
@@ -37,21 +42,27 @@ body {
 .site-navigation li {
   display: inline-block;
 }
+
 .site-navigation li:nth-child(1) {
   margin-right: 120px;
 }
+
 .site-navigation li:nth-child(2) {
   margin-right: 104px;
 }
+
 .site-navigation li:nth-child(3) {
   margin-right: 94px;
 }
+
 .site-navigation li:last-child {
   margin-right: 0px;
 }
+
 .site-navigation ul {
   font-weight: normal;
 }
+
 .site-navigation a {
   font-weight: normal;
   text-transform: uppercase;
@@ -71,11 +82,13 @@ body {
   margin-bottom: 40px;
   margin-top: 0px;
 }
+
 .card-text {
   font-size: 14px;
   line-height: 24px;
   margin: 0px;
 }
+
 .text {
   font-family: "Ubuntu", serif;
   font-size: 14px;
@@ -86,9 +99,11 @@ body {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
 img {
   margin-bottom: 30px;
 }
+
 .article {
   list-style: none;
   display: inline-block;
@@ -101,6 +116,7 @@ img {
   list-style: none;
   width: 420px;
 }
+
 .article:nth-child(2n) {
   margin-right: 0px;
 }
@@ -109,9 +125,11 @@ img {
   margin-right: 56px;
   margin-bottom: 120px;
 }
+
 .article:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+
 .wrapper {
   display: block;
   text-align: center;
@@ -124,6 +142,7 @@ img {
   padding: 0px;
   margin-bottom: 70px;
 }
+
 .button {
   font-size: 20px;
   line-height: 24px;
