@@ -15,56 +15,57 @@ body {
   font-family: "Playfair Display", serif;
   color: #626262;
 }
-nav {
+
+.site-navigation {
   display: block;
-  height: 190px;
-  text-align: center;
-}
-
-.main-menu {
-  margin: 0;
-  padding: 0;
   list-style: none;
-}
-.main-menu {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: normal;
-  display: inline-block;
-  text-transform: uppercase;
-}
-.main-menu ul {
   text-align: center;
 }
+.site-navigation {
+  font-size: 0px;
+}
 
-.main-menu li {
+.site-navigation {
+  margin-bottom: 104px;
+  padding-left: 0px;
+  padding-top: 78px;
+}
+.site-navigation li {
+  font-size: 14px;
+}
+
+.site-navigation li {
   display: inline-block;
 }
-
-.main-menu-item {
+.site-navigation li:nth-child(1) {
   margin-right: 120px;
-  padding-top: 88px;
 }
-.main-menu-item2 {
+.site-navigation li:nth-child(2) {
   margin-right: 104px;
 }
-.main-menu-item3 {
-  margin-right: 96px;
+.site-navigation li:nth-child(3) {
+  margin-right: 94px;
 }
-.main-menu-item4 {
+.site-navigation li:last-child {
   margin-right: 0px;
 }
+.site-navigation ul {
+  font-weight: normal;
+}
+.site-navigation a {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
 
-.main-menu a:hover,
-.main-menu a:focus {
+  color: inherit;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
   color: #03a9f4;
 }
-li a {
-  color: #626262;
-  text-decoration: none;
-}
 
-h2 {
+.card-title {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 40px;
@@ -82,7 +83,10 @@ h2 {
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   font-weight: 300;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+img {
   margin-bottom: 30px;
 }
 .article {
@@ -90,7 +94,6 @@ h2 {
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  font-size: 0px;
 }
 
 .block {
@@ -112,7 +115,7 @@ h2 {
 .wrapper {
   display: block;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .button {
