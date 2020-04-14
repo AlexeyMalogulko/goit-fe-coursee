@@ -30,7 +30,7 @@ body {
 }
 
 .site-navigation {
-  margin-bottom: 104px;
+  padding-bottom: 104px;
   padding-left: 0px;
   padding-top: 78px;
 }
@@ -105,16 +105,13 @@ img {
 }
 
 .article {
+  display: inline-block;
+  list-style: none;
+  width: 420px;
   list-style: none;
   display: inline-block;
   margin: 0px;
   padding: 0px;
-}
-
-.block {
-  display: inline-block;
-  list-style: none;
-  width: 420px;
 }
 
 .article:nth-child(2n) {
@@ -134,16 +131,13 @@ img {
   display: block;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .button {
   height: 60px;
   width: 164px;
   padding: 0px;
-  margin-bottom: 70px;
-}
-
-.button {
   font-size: 20px;
   line-height: 24px;
   color: #626262;
